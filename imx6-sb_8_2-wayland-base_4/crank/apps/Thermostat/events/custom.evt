@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="gre.animate.complete.buttons_hide_thermostat" type="0x8">
+    <label>buttons_hide_thermostat animation complete</label>
+    <description>The animation named buttons_hide_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.buttons_show_thermostat" type="0x8">
+    <label>buttons_show_thermostat animation complete</label>
+    <description>The animation named buttons_show_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.cooling_to_heating_thermostat" type="0x8">
+    <label>cooling_to_heating_thermostat animation complete</label>
+    <description>The animation named cooling_to_heating_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.fan_on_thermostat" type="0x8">
+    <label>fan_on_thermostat animation complete</label>
+    <description>The animation named fan_on_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.fan_spin_thermostat" type="0x8">
+    <label>fan_spin_thermostat animation complete</label>
+    <description>The animation named fan_spin_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.heating_to_off_thermostat" type="0x8">
+    <label>heating_to_off_thermostat animation complete</label>
+    <description>The animation named heating_to_off_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.lock_close_security" type="0x8">
+    <label>lock_close_security animation complete</label>
+    <description>The animation named lock_close_security has completed</description>
+  </event>
+  <event name="gre.animate.complete.lock_open_security" type="0x8">
+    <label>lock_open_security animation complete</label>
+    <description>The animation named lock_open_security has completed</description>
+  </event>
+  <event name="gre.animate.complete.off_to_cooling_thermostat" type="0x8">
+    <label>off_to_cooling_thermostat animation complete</label>
+    <description>The animation named off_to_cooling_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.settings_toggle" type="0x8">
+    <label>settings_toggle animation complete</label>
+    <description>The animation named settings_toggle has completed</description>
+  </event>
+  <event name="gre.animate.complete.slide_in_context" type="0x8">
+    <label>slide_in_context animation complete</label>
+    <description>The animation named slide_in_context has completed</description>
+  </event>
+  <event name="gre.animate.complete.slide_out_context" type="0x8">
+    <label>slide_out_context animation complete</label>
+    <description>The animation named slide_out_context has completed</description>
+  </event>
+  <event name="gre.animate.complete.temp_down_thermostat" type="0x8">
+    <label>temp_down_thermostat animation complete</label>
+    <description>The animation named temp_down_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.temp_up_thermostat" type="0x8">
+    <label>temp_up_thermostat animation complete</label>
+    <description>The animation named temp_up_thermostat has completed</description>
+  </event>
+  <event name="gre.animate.complete.weather_current" type="0x8">
+    <label>weather_current animation complete</label>
+    <description>The animation named weather_current has completed</description>
+  </event>
+  <event name="gre.animate.complete.weather_current_selected" type="0x8">
+    <label>weather_current_selected animation complete</label>
+    <description>The animation named weather_current_selected has completed</description>
+  </event>
+  <event name="gre.animate.complete.weather_forecast" type="0x8">
+    <label>weather_forecast animation complete</label>
+    <description>The animation named weather_forecast has completed</description>
+  </event>
+  <event name="gre.animate.complete.weather_forecast_selected" type="0x8">
+    <label>weather_forecast_selected animation complete</label>
+    <description>The animation named weather_forecast_selected has completed</description>
+  </event>
+  <event name="gre.animate.complete.weather_tab_btn_active" type="0x8">
+    <label>weather_tab_btn_active animation complete</label>
+    <description>The animation named weather_tab_btn_active has completed</description>
+  </event>
+  <event name="gre.animate.complete.weather_video_start" type="0x8">
+    <label>weather_video_start animation complete</label>
+    <description>The animation named weather_video_start has completed</description>
+  </event>
+  <event name="gre.animate.stop.buttons_hide_thermostat" type="0x8">
+    <label>buttons_hide_thermostat animation stopped</label>
+    <description>The animation named buttons_hide_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.buttons_show_thermostat" type="0x8">
+    <label>buttons_show_thermostat animation stopped</label>
+    <description>The animation named buttons_show_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.cooling_to_heating_thermostat" type="0x8">
+    <label>cooling_to_heating_thermostat animation stopped</label>
+    <description>The animation named cooling_to_heating_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.fan_on_thermostat" type="0x8">
+    <label>fan_on_thermostat animation stopped</label>
+    <description>The animation named fan_on_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.fan_spin_thermostat" type="0x8">
+    <label>fan_spin_thermostat animation stopped</label>
+    <description>The animation named fan_spin_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.heating_to_off_thermostat" type="0x8">
+    <label>heating_to_off_thermostat animation stopped</label>
+    <description>The animation named heating_to_off_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.lock_close_security" type="0x8">
+    <label>lock_close_security animation stopped</label>
+    <description>The animation named lock_close_security has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.lock_open_security" type="0x8">
+    <label>lock_open_security animation stopped</label>
+    <description>The animation named lock_open_security has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.off_to_cooling_thermostat" type="0x8">
+    <label>off_to_cooling_thermostat animation stopped</label>
+    <description>The animation named off_to_cooling_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.settings_toggle" type="0x8">
+    <label>settings_toggle animation stopped</label>
+    <description>The animation named settings_toggle has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.slide_in_context" type="0x8">
+    <label>slide_in_context animation stopped</label>
+    <description>The animation named slide_in_context has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.slide_out_context" type="0x8">
+    <label>slide_out_context animation stopped</label>
+    <description>The animation named slide_out_context has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.temp_down_thermostat" type="0x8">
+    <label>temp_down_thermostat animation stopped</label>
+    <description>The animation named temp_down_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.temp_up_thermostat" type="0x8">
+    <label>temp_up_thermostat animation stopped</label>
+    <description>The animation named temp_up_thermostat has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.weather_current" type="0x8">
+    <label>weather_current animation stopped</label>
+    <description>The animation named weather_current has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.weather_current_selected" type="0x8">
+    <label>weather_current_selected animation stopped</label>
+    <description>The animation named weather_current_selected has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.weather_forecast" type="0x8">
+    <label>weather_forecast animation stopped</label>
+    <description>The animation named weather_forecast has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.weather_forecast_selected" type="0x8">
+    <label>weather_forecast_selected animation stopped</label>
+    <description>The animation named weather_forecast_selected has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.weather_tab_btn_active" type="0x8">
+    <label>weather_tab_btn_active animation stopped</label>
+    <description>The animation named weather_tab_btn_active has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.weather_video_start" type="0x8">
+    <label>weather_video_start animation stopped</label>
+    <description>The animation named weather_video_start has been stopped</description>
+  </event>
+  <event name="timer.weather_video_start" type="0x8">
+    <description>The timer named timer.weather_video_start has fired</description>
+  </event>
+  <event format="2s1 value" name="update_weather_temp" type="0x40">
+    <description>a change in temperature outside, in celcius</description>
+    <field name="value">
+      <attr f="i" k="sb.max_value">40</attr>
+      <attr f="i" k="sb.min_value">-20</attr>
+    </field>
+  </event>
+</eventdefinitions>
