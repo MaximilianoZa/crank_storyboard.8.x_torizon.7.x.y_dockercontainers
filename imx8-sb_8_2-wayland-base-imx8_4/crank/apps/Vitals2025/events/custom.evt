@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event format="1u1 ecg_graph_width" name="adjust_ecg_graph_width" type="0x40">
+    <description>Ajust the width of the graph on the ECG screen.</description>
+    <field name="ecg_graph_width">
+      <attr f="i" k="sb.max_value">6</attr>
+      <attr f="i" k="sb.min_value">1</attr>
+    </field>
+  </event>
+  <event name="change_screen" type="0x10"/>
+</eventdefinitions>

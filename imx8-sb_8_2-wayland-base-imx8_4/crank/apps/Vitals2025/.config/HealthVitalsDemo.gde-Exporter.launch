@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.crank.gdt.ui.export.GREExport">
+    <intAttribute key="com.crank.resource.tab.fake.entry" value="37"/>
+    <stringAttribute key="gre.export.gde_file" value="HealthVitalsDemo.gde"/>
+    <stringAttribute key="gre.export.packaging.name" value="package.none"/>
+    <stringAttribute key="gre.export.resource.configuration" value="HealthVitalsDemo.gde-Exporter"/>
+    <stringAttribute key="gre.export.resource_inclusion_changed" value="Default"/>
+    <stringAttribute key="gre.export.sb.project" value="HealthVitalsDemo"/>
+    <mapAttribute key="gre.export.transfer.attrs">
+        <mapEntry key="filesystem.copy_new_only" value="false"/>
+        <mapEntry key="filesystem.output_dir" value="C:\Users\mzapata\DockerTorizonCrank\imx8-sb_8_2-wayland-base-vivante_3\crank\apps\Vitals2025"/>
+        <mapEntry key="filesystem.use_home" value="false"/>
+    </mapAttribute>
+    <stringAttribute key="gre.export.transfer.name" value="transfer.filesystem"/>
+    <stringAttribute key="gre.export.workspace_configuration" value="false"/>
+</launchConfiguration>
