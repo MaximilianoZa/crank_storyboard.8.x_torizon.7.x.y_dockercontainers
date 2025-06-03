@@ -6,12 +6,12 @@ sbengine_ext=.gapp
 runtime=/usr/crank/runtimes/linux-armv7le-opengles_2.0-wayland-obj
 
 sb_binary=$runtime/bin/sbengine
-#sb_app=Medical/HealthVitalsDemo.gapp
 sb_app=Thermostat/Thermostat.gapp
+#sb_app=EvCharger/EV_Charger.gapp
 demo_app=$crank_dir/apps/$sb_app
 
-sb_options='-vv -orender_mgr,fullscreen -omtdev,device=/dev/input/event2'
-echo "-vv -orender_mgr,fullscreen -omtdev,device=/dev/input/event2"
+sb_options='-vv -orender_mgr,fullscreen,multisample=0 -omodel3d,max_lights=4 -omtdev,device=/dev/input/event2'
+echo "-vv -orender_mgr,fullscreen,multisample=0 -omodel3d,max_lights=4 -omtdev,device=/dev/input/event2"
 
 #ENV Variables
 export SB_PLUGINS=$runtime/plugins
