@@ -1,0 +1,37 @@
+
+version: '3.8'
+
+services:
+  weston:
+    image: torizon/weston-imx8:4
+    container_name: weston
+    network_mode: host
+    cap_add:
+      - CAP_SYS_TTY_CONFIG
+    volumes:
+      - /dev:/dev
+      - /tmp:/tmp
+      - /run/udev:/run/udev
+      - /home/torizon/weston-config:/etc/xdg/weston-dev
+    device_cgroup_rules:
+      - 'c 4:* rmw'
+      - 'c 253:* rmw'
+      - 'c 13:* rmw'
+      - 'c 226:* rmw'
+      - 'c 10:223 rmw'
+      - 'c 199:0 rmw'
+    command: --developer
+    restart: unless-stopped
+
+  crank:
+    image: cranksoftware/imx8-sb_8_2-wayland-base-imx8_4:v0.1
+    container_name: crank
+    stdin_open: true
+    tty: true
+    volumes:
+      - /tmp:/tmp
+      - /var/run/dbus:/var/run/dbus
+      - /dev/galcore:/dev/galcore
+    device_cgroup_rules:
+      - 'c 199:* rmw'
+    restart: "no"
